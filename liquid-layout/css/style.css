@@ -1,0 +1,72 @@
+body {
+  font-family: "Trebechet MS", Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+#container {
+  width: 85%;
+  margin: 0 auto;
+  background: #fff;
+  min-width: 720px;
+  max-width: 1080px;
+}
+
+#brand {
+  height: 100px;
+  background: #9e9e9e;
+  text-align: center;
+  line-height: 100px;
+}
+
+#content {
+  width: 75%;
+  float: right;
+}
+
+#main-content {
+  width: 65%;
+  float: left;
+}
+
+#main-content h1 {
+  text-align: center;
+}
+
+#main-content p {
+  text-align: justify;
+}
+
+#second-content {
+  width: 33%   ;
+  float: right;
+  background: #d1d1d1;
+}
+
+#second-content h2,
+#second-content p {
+  padding: 0 10px;
+}
+
+#navigation {
+  width: 24%;
+  float: left;
+  padding: 26px 0;
+  background: #d1d1d1;
+}
+
+#navigation ul {
+  list-style: none;
+}
+
+#navigation li {
+  text-decoration: none;
+  padding-top: 10.2px;
+}
+
+#footer {
+  clear: both;
+  background: #c4c4c4;
+  padding: 5px;
+  text-align: center;
+}
+

@@ -1,0 +1,33 @@
+.box {
+  width: 400px;
+  background: #dedede url('../img/topo.png') no-repeat left top;
+}
+
+.box h2 {
+  padding: 1em 1em 0 1em;
+}
+
+.box p {
+  background: #dedede url('../img/baixo.png') no-repeat left bottom;
+  padding: 0 1em 1em 1em;
+}
+
+.box2 {
+  width: 400px;
+  background: #dedede url('../img/fundo-arredondamento.png') repeat-y;
+  margin: 2em 0 0 0;
+}
+
+.box2 h2 {
+  padding: 1em 1em 0 1em;
+  background: url('../img/topo2.png') no-repeat left top;
+}
+
+.box2 .last {
+  background: url('../img/baixo2.png') no-repeat left bottom;
+  padding: 0 1em 1em 1em;
+}
+
+.box2 p {
+  padding: 0 1em 0 1em;
+}

@@ -1,0 +1,40 @@
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px 20px;
+  background: url(../img/seta.png) no-repeat left center;
+}
+*/
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  width: 200px;
+  height: 40px;
+  display: block;
+  background: #f7b600 url('../img/menu.png') no-repeat left bottom;
+  color: #000;
+  text-indent: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+ul a:hover,
+#home #nav-vertical .home a,
+#about #nav-vertical .about a,
+#services #nav-vertical .services a,
+#news #nav-vertical .news a,
+#contact #nav-vertical .contact a {
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
