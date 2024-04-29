@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  color: #777;
+  background: #fff;
+  text-align: justify;
+  padding: 50px 80px;
+}
+
+p {
+  width: 60%;
+  min-width: 500px;
+  max-width: 800px;
+  margin: 1em auto 0 auto;
+}
+
+.titles {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.titles h1 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+  background-color: #111;
+  padding: 18px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+
+body,
+html {
+  font: 16px "Lato", sans-serif;
+  color: #777;
+  height: 100%;
+}
+
+.img {
+  height: 100%;
+  opacity: 0.75;
+  position: relative;
+}
+
+#img1 {
+  background: url('../img/imagem1.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#img2 {
+  background: url('../img/imagem2.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#img3 {
+  background: url('../img/imagem3.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#img4 {
+  background: url('../img/imagem4.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#img5 {
+  background: url('../img/imagem5.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#img6 {
+  background: url('../img/imagem6.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
